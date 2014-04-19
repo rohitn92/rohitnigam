@@ -1,0 +1,37 @@
+<html>
+<head>
+<title> Portfolio </title>
+</head>
+<link href='http://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'><style>
+      body {
+        font-family: 'Text Me One', sans-serif;
+        font-size: 20px;
+        
+      }
+      a:link {color:#3498db; text-decoration:none;}      /* unvisited link */
+a:visited {color:#3498db; text-decoration:none;}  /* visited link */
+a:hover {color:#e67e22;text-decoration:none;}  /* mouse over link */
+a:active {color:#e74c3c;text-decoration:none;}  /* selected link */
+    </style>
+<body bgcolor=#ececec>
+<a href="https://github.com/rohitn92"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+<center>
+IT undergrad. Programmer. Graphic designer. Tech Enthusiast. President @ <a href="http://www.iecsemanipal.com">IE CSE</a>
+</br> Like to work with products/technologies that interact with people directly
+</br> Prefer to work in a start-up like environment where there is a perfect blend of technical skills & creativity!
+</br> <a href="https://www.dropbox.com/s/ja3j3c3aj4ayuxb/ROHIT%20NIGAM.pdf">
+<b>Check out my resume </b></a>
+ <div>
+       <img src="http://s15.postimg.org/qrqpd8h7v/image.png" width=700px height=525px>
+ </br>
+ </div>
+ <a href="https://www.facebook.com/rohit.nigam"><img src="http://s30.postimg.org/4rllrjblp/image.png"></a>
+ 
+ <a href="https://in.linkedin.com/pub/rohit-nigam/7a/454/8b/"><img src="http://s27.postimg.org/ez971244f/image.png"></a>
+ 
+ <a href="https://www.twitter.com/theRonnicle"><img src="http://s28.postimg.org/qxi40xqw9/image.png"></a>
+ 
+ <a href="https://www.behance.net/theronnicle"><img src="http://s22.postimg.org/rx8qzeqsx/behance.png" width=100px height=100px></a>
+ </center>
+</body>
+</html>
