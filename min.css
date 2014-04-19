@@ -153,7 +153,7 @@ table{border-collapse:collapse; border-spacing:0}
  .title:after, #project:after{ border-color:transparent;  border-top-color:#3498db ;  border-width:2em;  left:50%;  margin-left:-2em;  margin-top:-0.0625em}
  .title:before{ border-color:transparent;  border-top-color:#262C35;  border-width:2.5em;  left:50%;  margin-left:-2.45em}
  #project:after { top: 0; border-top-color:#212328}
- .title.intro img{ width:auto;  width: 50%; height:50%; max-width:90%;  height:3em;  margin:auto;  position:absolute;  top:0;  left:0;  bottom:5%;  right:0}
+ .title.intro img{ width:auto;  width: 50%; height:55%; max-width:90%;  height:3em;  margin:auto;  position:absolute;  top:0;  left:0;  bottom:5%;  right:0}
  .title.intro h2, .title.intro span{ margin:1.25em auto 0;  color:#EAE4E4;  text-shadow:.125em 0.125em 0 hsla(0,0%,0%,0.05)}
  .title.intro span{ margin:3em auto 0;  font-size:1.5em;  display:inline-block}
 
