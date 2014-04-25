@@ -45,8 +45,8 @@
          <div class="header-wrap ">
                 <header class="wrapper">
 
-                   <div id="logo"><a href="index.html"><img src="http://s26.postimg.org/y1mde47ih/logo.png" alt="Adam Mottau" style="margin-top:20px;"></a>
-				</div>
+                   <div id="logo"><a href="index.html"><img src="assets/css/img/logo.svg" alt="ROHIT NIGAM"></a>
+				   </div>
 
                   <nav>
 
@@ -65,18 +65,18 @@
 
 
 
-            <div class="main clearfix">
-
+            <div>
+			
 
             <!-- BEGIN SPOT TITLE:INTRO -->  
             <div class="title intro clearfix">
 
                 
-                   <img src="https://dl.dropboxusercontent.com/u/101900773/mottau-intro.svg"  alt="ROHIT NIGAM" class="wrapper" >
+                   <img src="assets/css/img/mottau-intro.svg" alt="ROHIT NIGAM" class="wrapper">
                     <span><p></p></span>
-                    <h2><b>IT undergrad. Programmer. Graphic designer. Tech Enthusiast. </b> <br>
+                    <h2><b>IT undergrad. Programmer. Graphic designer. Tech Enthusiast. </b> </br> 
 
-Like to work with products/technologies that interact with people directly 
+Like to work with products/technologies that interact with people directly.<br>
 Prefer to work in a start-up like environment where there is a perfect blend of technical skills & creativity! </h2>
 
             </div>
@@ -84,7 +84,7 @@ Prefer to work in a start-up like environment where there is a perfect blend of 
 
  <!-- BEGIN WORK SECTION -->
  <section id="intro">
-<img id="leotartari" src="https://dl.dropboxusercontent.com/u/101900773/me.png" />
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="assets/css/img/rohit.png" />
 
 <p> <center>
 <h1 style="text-align:center;">EDUCATION</h1>
@@ -117,9 +117,8 @@ Primary, middle & high school
 				   <h1 style="text-align:center">WORK EXPERIENCE</h1>
 				   
 				   <p style="color:#646B6D">
-				   <img src="http://s26.postimg.org/ooqdnqt55/image.png" alt="SKILLS" style="float:left;margin:0 5em 0 0;" >
-				   
-				   <ul style="color:#646B6D">
+				   <img src="assets/css/img/a.png" alt="SKILLS" style="float:left;margin:0 5em 0 0;" >
+				    <ul style="color:#646B6D">
 <li><b><a style="color:#61AFF0">RELIANCE COMMUNICATIONS LTD.</a></b><br>
 <b>Trainee</b><br>
 Developed a “Complaint booking &
@@ -141,7 +140,6 @@ Google Developers Group, Manipal. A place for developers to express their enthus
 
 
 </ul>
-
 </p>
 				   
 							
@@ -167,7 +165,7 @@ Google Developers Group, Manipal. A place for developers to express their enthus
     
 							<center>
                        
-                            <img src="http://s26.postimg.org/ykrgndyx5/prism_960.png" >
+                            <img src="assets/css/img/prism-960.png" >
 							</center>
                          
                          <h1 style="text-align:center; color:#61AFF0">SKILLS</h1>
@@ -203,8 +201,8 @@ ORACLE 11g Server/Express, PHPmyAdmin, MS-Access<br></li>
 <br>Adobe Photoshop & Illustrator<br></li>
 <li><b><a style="color:#61AFF0">Other Software</a></b><br>
 IBM Infosphere, Visual Studios, NetBeans, MASM, DreamWeaver<br></li>
-</p>
 
+</ul>
 					<a class="button" href="#contact">Request CV</a>
 
 
@@ -218,13 +216,13 @@ IBM Infosphere, Visual Studios, NetBeans, MASM, DreamWeaver<br></li>
 
 			
             <!-- BEGIN CONTACT SECTION -->  
-         <section id="contact">
+            <section id="contact">
             
                 <!-- BEGIN SPOT TITLE:CONTACT -->  
                 <div class="title clearfix">
 
                         <center>
-                            <img src="https://dl.dropboxusercontent.com/u/101900773/flat-email-icon-display.jpg">
+                            <img src="mail.jpg">
                          </center>
                     <div class="text">
                          <h1>Contact</h1>
@@ -262,9 +260,8 @@ IBM Infosphere, Visual Studios, NetBeans, MASM, DreamWeaver<br></li>
 
             </div>
             <!-- END WRAPPER -->
-  
-       
 
+            
        <center>
                  <!-- <a href="https://www.facebook.com/rohit.nigam"><img src="http://s30.postimg.org/4rllrjblp/image.png"></a> -->
  
@@ -277,8 +274,20 @@ IBM Infosphere, Visual Studios, NetBeans, MASM, DreamWeaver<br></li>
 
 </center>
 </section>
+</div> <!-- main ends--> 
+<script>
+function bigImg(x)
+{
+x.style.height="64px";
+x.style.width="64px";
+}
 
-     </div>     <!-- #main -->
+function normalImg(x)
+{
+x.style.height="256px";
+x.style.width="256px";
+}
+</script>
 
 		<script src="jquery-1.9.1.min.js"></script>
 <script src="main.js"></script>
